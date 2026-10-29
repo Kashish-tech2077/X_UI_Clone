@@ -1,0 +1,21 @@
+{
+  "name": "x_clone",
+  "version": "1.0.0",
+  "description": "A UI Clone of X (Twitter)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tailBuild": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "keywords": [
+    "tailwindcss",
+    "css"
+  ],
+  "author": "Kashish Pal",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "tailwindcss": "^4.3.3"
+  }
+}
