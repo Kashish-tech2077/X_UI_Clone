@@ -1,1 +1,5 @@
 @import "tailwindcss";
+
+/* Tell Tailwind to look out into your root folder for your HTML files */
+@source "../**/*.html";
+@source "../*.html";
